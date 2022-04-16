@@ -1,0 +1,7 @@
+1.Open Notepad.
+2.Write the structure of HTML.
+3.Write any 5 Statements about Microsoft Corporation.
+4.Display the image/photograph of CEO of Microsoft on the Browser.
+5.Save the file indside your Name Folder on Desktop with the Name "Microsoft.html".
+6.i)Every Statement must be in different line.
+  ii)The background colour of the Webpage must be Non-White.
