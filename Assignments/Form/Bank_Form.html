@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>
+            All India Citizen's Bank Form
+        </title>
+        <script type="text/javascript" src="FormScript.js"></script>
+        <link rel="stylesheet" type="text/css" href="FormTSS.css">
+    </head>
+    <body>
+        <br/><br/>
+        <h1>AIC Bank Form</h1>
+        <h2>
+            !! Welcome To AIC Bank !!
+        </h2>
+        <table>
+            <caption>
+                New Account Details
+            </caption>
+            <form name = "bankForm" action = "#" method = "post" onsubmit="return validate()">
+                <tr>
+                    <td>
+                        Full Name : 
+                    </td>
+                    <td>
+                        <input type = "text" name = "name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age : 
+                    </td>
+                    <td>
+                        <input type = "number" name = "age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender : 
+                    </td>
+                    <td>
+                        <input type="radio" id="01" name="genderSelect" value="male" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" id="02" name="genderSelect" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Category : 
+                    </td>
+                    <td>
+                        <select name="casteSelect" id="03" required>
+                            <option disabled selected value>---</option>
+                            <option value="general">General</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc">SC</option>
+                            <option value="st">ST</option>
+                            <option value="ews">EWS</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td>
+                        Mob. No. :
+                    </td>
+                    <td>
+                        <input type = "tel" name = "mobno" pattern="[0-9]{10}" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        E-mail : 
+                    </td>
+                    <td>
+                        <input type = "email" name = "email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Set Username :
+                    </td>
+                    <td>
+                        <input type="text" name = "username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Set Password : 
+                    </td>
+                    <td>
+                        <input type="password" name = "password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Confirm Password : 
+                    </td>
+                    <td>
+                        <input type="password" name = "cpassword" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Account Type : 
+                    </td>
+                    <td>
+                        <input type="radio" id = "04" name = "acctype" value = "savings" checked>
+                        <label for="savings">Savings</label>
+                        <input type="radio" id="05" name="acctype" value="current">
+                        <label for="current">Current</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Pincode : 
+                    </td>
+                    <td>
+                        <input type="tel" name = "pincode" pattern="[0-9]{6}" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                        <input type = "submit" value = "Register">
+                        <input type="reset">
+                        </center>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
