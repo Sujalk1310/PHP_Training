@@ -1,0 +1,92 @@
+body {
+  background-image: url("Classroom.png");
+  background-size: cover;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: rgba(232, 250, 189, 0.6);
+  padding: 5px;
+  }
+caption {
+  caption-side: bottom;
+  font-size: 35px;
+  color: black;
+  background-color: rgb(179, 255, 0);
+  font-weight: bold;
+  border-radius: 50px;
+  border: 2px solid black;
+  }
+td.roundedCorners { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color: rgb(212, 240, 87);
+  }
+th.roundedCorners { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align: center;
+  background-color: rgb(212, 240, 87);
+  }
+td.roundedCornersEmpty {
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : #d6d6d6;
+}
+td.roundedCornersPhysics { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : #25E3A6; 
+  }
+td.roundedCornersMaths { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : #ABE781; 
+  }
+td.roundedCornersElectrical { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : hsl(308, 92%, 50%); 
+  }
+td.roundedCornersPython { 
+  border: 1px solid Black;
+  border-radius: 50px;
+  padding: 18px;
+  text-align : center;
+  background-color : #968DC2; 
+  }
+td.roundedCornersWeb { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : rgb(255, 0, 0); 
+  }
+td.roundedCornersEnglish { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : #FF8700; 
+  }
+td.roundedCornersDrawing { 
+  border: 1px solid Black;
+  border-radius: 50px; 
+  padding: 18px;
+  text-align : center;
+  background-color : #0785DD; 
+  }
