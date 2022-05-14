@@ -1,0 +1,46 @@
+td{
+    text-align: left;
+    font-family: 'Raleway';
+    font-size:30px;
+    padding:15px;
+    text-shadow: 1px 1px 1px black;
+}
+table{
+    box-shadow:5px 5px 5px 1px #c1c1a4;
+    background:white;
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid black;
+    border-radius:20px;
+    width: auto;
+}
+input{
+    height:35px;
+    width: 220px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: center;
+    border:0.10px solid black;
+    border-bottom: 3px solid purple;
+    border-radius: 5px;
+}
+.Reg{
+    font-family: 'Raleway';
+    border-radius: 5px;
+    border-bottom: none;
+    font-size: 20px;
+    color: white;
+    background: purple;
+    height: 50px;
+    width: 150px;
+    box-shadow: 3px 5px 3px 1px black,-3px 5px 3px 1px black;
+}
+.Reg:hover{
+    background:#cc33ff;
+}
+.Reg:active{
+    background:grey;
+}
+
